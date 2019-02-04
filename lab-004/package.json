@@ -1,0 +1,14 @@
+{
+  "name": "lab-004",
+  "version": "1.0.0",
+  "description": "Exemplo de import de biblioteca externa",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felipe Fernandes",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^12.0.5"
+  }
+}
