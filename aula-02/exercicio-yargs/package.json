@@ -1,0 +1,14 @@
+{
+  "name": "exercicio-yargs",
+  "version": "1.0.0",
+  "description": "Menu de linha de comando",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felipe Fernandes",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^12.0.5"
+  }
+}
