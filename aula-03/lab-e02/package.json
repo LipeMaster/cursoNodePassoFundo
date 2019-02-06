@@ -1,0 +1,16 @@
+{
+  "name": "lab-e02",
+  "version": "1.0.0",
+  "description": "Exemplo de conteúdo Estático",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "start-watch": "nodemon --exec \"npm start\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felipe Fernandes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

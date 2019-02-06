@@ -1,0 +1,17 @@
+{
+  "name": "lab-e03",
+  "version": "1.0.0",
+  "description": "Exemplo de conteudo dinamico com Handlebars",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "start-watch": "nodemon --exec \"npm start\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felipe Fernandes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "hbs": "^4.0.1"
+  }
+}
