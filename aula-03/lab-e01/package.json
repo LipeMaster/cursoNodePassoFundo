@@ -1,0 +1,14 @@
+{
+  "name": "lab-e01",
+  "version": "1.0.0",
+  "description": "Exemplo de HTTP Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felipe Fernandes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
