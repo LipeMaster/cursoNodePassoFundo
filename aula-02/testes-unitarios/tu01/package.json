@@ -1,0 +1,19 @@
+{
+  "name": "tu01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start-watch": "nodemon --exec \"npm start\"",
+    "test": "mocha **/*.test.js",
+    "test-watch": "nodemon --exec \"npm test\"",
+    "coverage": "nyc --reporter html --reporter text npm test"
+  },
+  "author": "Felipe Fernandes",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "nyc": "^13.2.0"
+  }
+}
